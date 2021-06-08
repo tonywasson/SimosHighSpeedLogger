@@ -157,8 +157,8 @@ Create a file (/boot/wpa_supplicant.txt) with wifi info if applicable
 Once you boot up the Pi for the first time, SSH in and:
 
 ```bash
-sudo update
-sudo upgrade
+sudo apt update
+sudo apt upgrade
 sudo apt install python3-pip can-utils vim git
 ```
 
